@@ -1,0 +1,67 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: aliceblue;
+}
+
+header {
+  background: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  background: dodgerblue;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+}
+
+nav ul li a:hover {
+  background: dodgerblue;
+}
+.menu-con {
+  display: none;
+  position: absolute;
+  background: blue;
+  top: 35px;
+  left: 0;
+}
+.menu-con li a {
+  padding: 8px 12px;
+  display: block;
+}
+.menu-cha:hover .menu-con {
+  display: block;
+}
+main {
+  padding: 20px;
+  background: white;
+  margin: 10px;
+}
+.card {
+  border: 1px solid whitesmoke;
+  background: aliceblue;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+footer {
+  text-align: center;
+  background: blue;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
